@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'English-Font';
+    src: url('../public/fonts/CalSans-Regular.ttf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: 'Japanese-Font';
+    src: url('../public/fonts/ZenAntique-Regular.ttf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+body{
+    font-family: 'Japanese-Font';
+}

@@ -1,0 +1,34 @@
+.Menu{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #000000;
+    color: white;
+    left: 0;
+    top: 0;
+}
+
+.Menu ul{
+    list-style: none;
+    padding: 0;
+}
+
+.Menu ul li{
+    height:50px;
+
+    text-align: center;
+    vertical-align: middle;
+
+    background-color: #000000;
+
+    border-style:solid;
+    border-color: #6b5bff;
+    border-width:1px;
+    border-radius: 5px;
+}
+
+.Menu ul li a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}

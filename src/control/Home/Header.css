@@ -1,0 +1,18 @@
+.Header .Title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 40px;
+}
+
+.Header .Menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
