@@ -27,6 +27,7 @@ export class Menu extends React.Component<hprops, hstate>{
               <ul>
                 <li><a href="\">Home</a></li>
                 <li><a href="\config">Config</a></li>
+                <hr/>
                 <li><a href="\comic">Comic</a></li>
               </ul>
             </div>
