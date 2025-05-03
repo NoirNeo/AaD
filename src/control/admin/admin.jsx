@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Home from '../Home/Home';
 import { Config } from "../Config/Config";
+import { Comic } from "../Comic/Comic";
 
 class Routing extends React.Component{
     render(){
@@ -12,6 +13,7 @@ class Routing extends React.Component{
                         <Routes>
                             <Route exact path = '/' element = {<Home/>}/>
                             <Route path = '/config' element = {<Config/>}/>
+                            <Route path = '/comic' element = {<Comic/>}/>
                             {/*<Route path = '/*' element = {<Error/>}/>*/}
                         </Routes>
                     </Router>

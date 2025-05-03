@@ -8,7 +8,9 @@ export class SideBar extends React.Component{
             <>
                 <div className="SideBar">
                     <div className="Title">
-                        天使と悪魔
+                        <a  href = "/">
+                            天使と悪魔
+                        </a>
                     </div>
                     <Menu/>
                 </div>

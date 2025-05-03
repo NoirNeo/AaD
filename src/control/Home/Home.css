@@ -1,8 +1,6 @@
 .Home{
     display: flex;
     flex-direction: row;
-    background-color: #100f13;
-    color: #9782c7;
 }
 
 .Home > .Main{
@@ -10,7 +8,6 @@
     flex-direction: column;
     width:85%;
     height:auto;
-    margin-left: 15%;
 }
 
 .Home-Link-Block{

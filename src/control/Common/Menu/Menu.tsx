@@ -23,9 +23,9 @@ export class Menu extends React.Component<hprops, hstate>{
         return(
           <div>
             <div className="Menu">
-              <h2>メニュー</h2>
               <ul>
                 <li><a href="\">Home</a></li>
+                <hr/>
                 <li><a href="\config">Config</a></li>
                 <hr/>
                 <li><a href="\comic">Comic</a></li>

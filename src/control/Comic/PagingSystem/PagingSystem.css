@@ -1,0 +1,31 @@
+.PagingSystem{
+    margin: 50px;
+}
+
+.PagingSystem .Main{
+    display: flex;
+    flex-direction: row;
+}
+
+.PagingSystem .Main img{
+    width: 563px;
+    height: 800px;
+    
+    border-style:solid;
+    border-color: #6b5bff;
+    border-width:2px;
+    border-radius: 10px;
+}
+
+.PagingSystem .Main .Border{
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 1px;
+    height: auto;
+    background: linear-gradient(to top, transparent, #ffffff, transparent);
+}
+
+.PagingSystem .Main .Empty{
+    width: 563px;
+    height: 800px;
+}

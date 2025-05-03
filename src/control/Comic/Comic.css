@@ -1,0 +1,26 @@
+.Comic{
+    display: flex;
+    flex-direction: row;
+}
+
+.Comic .Main{
+    display: flex;
+    flex-direction: column;
+    width:85%;
+    height:auto;
+}
+
+.Comic .Main .Title{
+    padding: 30px;
+    font-size: 50px;
+}
+
+.Comic .Main .No{
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.Comic .Main .Abstract{
+    padding-left: 30px;
+    font-size: 15px;
+}

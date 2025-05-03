@@ -5,10 +5,10 @@ import "./Config.css";
 export class Config extends React.Component{
     render(){
         return(
-            <div className = "Home">
+            <div className = "Config">
                 <SideBar/>
-                <div className = "Config">
-                    <h1>設定</h1>
+                <div className = "Main">
+                    <div className="Title">設定</div>
                 </div>
             </div>
         );

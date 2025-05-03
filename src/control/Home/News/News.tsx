@@ -10,7 +10,7 @@ export class News extends React.Component{
                 {news_list.map((value, index) => {
                     return(
                         <div key = {`news_${value}`} className="Main">
-                            {<img key = {`news_image_${value}`} src = {`./server/${value}`}/>}
+                            {<img key = {`news_image_${value}`} src = {`/server/${value}`}/>}
                             <div className="Title">{value}</div>
                         </div>
                     );

@@ -1,6 +1,12 @@
 .Config{
-    width:100vw;
-    height:100vh;
-    background-color: #000;
-    color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+
+.Config .Main{
+}
+
+.Config .Main .Title{
+    padding: 30px;
+    font-size: 50px;
 }
